@@ -38,7 +38,7 @@ public class GreeterServlet extends HttpServlet {
 
 	static Configuration cfg;
 	static {
-		cfg = new Configuration(Configuration.VERSION_2_3_20);
+		cfg = new Configuration();
 
 		// Where do we load the templates from:
 		cfg.setClassForTemplateLoading(GreeterServlet.class, "/templates");
